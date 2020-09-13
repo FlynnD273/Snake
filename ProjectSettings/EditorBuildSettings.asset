@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScene.unity
     guid: 71e4eea935be1a14493668d391715759
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
+    path: Assets/Scenes/SingleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MultiScene.unity
+    guid: 0014581a62a92bc459724704ba231d99
+  - enabled: 1
+    path: Assets/Scenes/MultiplayerSetup.unity
+    guid: 0f90fa946ca731745aefeb8682b276da
   m_configObjects: {}

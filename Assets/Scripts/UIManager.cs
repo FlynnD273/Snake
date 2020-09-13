@@ -43,15 +43,9 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public void LoadSinglePlayer()
+    public void LoadScene(string scene)
     {
-        SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
-        Time.timeScale = 1;
-    }
-
-    public void LoadTitle()
-    {
-        SceneManager.LoadScene("TitleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
         Time.timeScale = 1;
     }
 }
